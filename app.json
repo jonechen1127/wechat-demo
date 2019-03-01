@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/tabs/index/index",
+    "pages/tabs/order/order",
+    "pages/tabs/center/center",
+    "pages/authorize/authorize",
+    "pages/signup/signup"    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智慧停车",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/tabs/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_selected.png"
+      },
+      {
+        "pagePath": "pages/tabs/order/order",
+        "text": "订单",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order_selected.png"
+      },
+      {
+        "pagePath": "pages/tabs/center/center",
+        "text": "个人中心",
+        "iconPath": "images/center.png",
+        "selectedIconPath": "images/center_selected.png"
+      }
+    ]
+  }
+}

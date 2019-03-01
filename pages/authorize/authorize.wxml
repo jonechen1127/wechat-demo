@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <text>深圳零壹移动互联系统有限公司</text>
+    <text>获得你的公开信息（昵称、头像等）</text>
+  </view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登录 </button>
+    <!-- 授权成功  -->
+    <!-- <block wx:else>
+      <view>请升级微信版本</view>
+    </block> -->
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>
